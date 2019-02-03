@@ -1,0 +1,89 @@
+body {
+    background: #171717;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Navbar {
+    background: #141414;
+}
+
+.MuralConteudo {
+    color: #ffeb3b;
+    background: #282828;
+    margin-top: 15vh;
+    margin-bottom: 5%;
+    border-radius: 1rem;
+}
+
+.Conteudo {
+    padding: 2vh;
+}
+
+.Info {
+    text-transform: uppercase;
+    font-size: 2rem !important;
+}
+
+.TituloConteudo {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.fonte-personalizada{
+    font-size: 1.6rem;
+}
+
+.Titulo {
+    text-transform: uppercase;
+    color: #f0cb00;
+    font-weight: 600;
+    font-size: 2.5rem !important;
+    cursor: default;
+}
+
+.form-group a {
+    color: #ffeb3b;
+}
+
+.form-group a:hover {
+    color: #f0cb00;
+    text-decoration: none !important;
+}
+
+.nav-link {
+    color: #ffeb3b;
+}
+
+    .nav-link:hover {
+        color: #141414;
+        border-radius: 1rem;
+        background: #ffeb3b;
+        font-weight: bold;
+    }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 640px) {
+    .Titulo {
+        margin: 0 auto;
+        font-size: 1.9rem !important;
+    }
+
+    .nav-link {
+        font-size: 0.9rem;
+    }
+
+    .MuralConteudo {
+        margin-top: 4vh;
+    }
+
+    .Info {
+        margin: 0 auto;
+        font-size: 1.2em !important;
+    }
+}

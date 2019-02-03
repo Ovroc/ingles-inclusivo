@@ -1,0 +1,132 @@
+body {
+    background: #171717;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Navbar {
+    background: #141414;
+}
+
+.MuralConteudo {
+    color: #ffeb3b;
+    border-radius: 1rem;
+    background: #282828;
+    margin-top: 15vh;
+    margin-bottom: 5%;
+    scroll-behavior: auto;
+}
+
+.Conteudo {
+    padding: 2vh;
+}
+
+.TituloConteudo {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.ListaConteudo {
+    margin: 3vh 2vh 3vh 2vh;
+    height: 35vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+    .ListaConteudo li a {
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.2em;
+    }
+
+.list-group-item {
+    background: none;
+}
+
+
+.list-group-item:hover {
+    color: #141414;
+    border-radius: 1rem;
+    background: #ffeb3b;
+}
+
+.Titulo {
+    text-transform: uppercase;
+    color: #f0cb00;
+    font-weight: 600;
+    font-size: 2.5rem !important;
+    cursor: default;
+}
+
+.ListaConteudo li a:hover {
+    cursor: pointer !important;
+}
+
+.nav-link {
+    color: #ffeb3b;
+}
+
+    .nav-link:hover {
+        color: #141414;
+        border-radius: 1rem;
+        background: #ffeb3b;
+        font-weight: bold;
+    }
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #ffeb3b;
+    border-radius: 8px;
+}
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #FFC300;
+    }
+
+.Midia {
+    margin: 6vh 6vh 1vh 6vh;
+}
+
+.Player {
+    text-align: center;
+    max-width: 960px;
+    width: 100%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 640px) {
+    .NavLista {
+        padding-top: 1% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .Titulo {
+        margin: 0 auto;
+        font-size: 1.9rem !important;
+    }
+
+    .nav-link {
+        font-size: 0.9rem;
+    }
+
+    .ListaConteudo li a {
+        font-weight: 400;
+        font-size: 1.0em;
+    }
+
+    .MuralConteudo {
+        margin-top: 8vh;
+    }
+}
